@@ -34,7 +34,6 @@ section.chat__section {
         }
 
         h1 {
-            text-transform: uppercase;
             font-size: 20px;
             color: #ffff;
             margin-left: 10px;
@@ -53,12 +52,13 @@ section.chat__section {
     textarea {
         width: 100%;
         border: none;
+        border-radius: 10px;
         padding: 14px 44px;
         font-size: 21px;
         outline: none;
-        color: #ffff;
+        color: rgb(0, 0, 0);
         font-weight: 600;
-        background: #8F8BE8;
+        background: #379BFF;
     }
 
     .message {

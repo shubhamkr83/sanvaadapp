@@ -2,82 +2,59 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
   background-image: url("bg2.svg");
   background-size: cover;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 section.chat__section {
   width: 800px;
   max-width: 90%;
-  background: white;
-  -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
-
 section.chat__section .brand {
   padding: 20px;
-  background: #7c06dd;
-  background: radial-gradient(circle, #7c06dd 0%, #4659fc 100%);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background: rgb(124, 6, 221);
+  background: radial-gradient(circle, rgb(124, 6, 221) 0%, rgb(70, 89, 252) 100%);
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 section.chat__section .brand img {
   color: #7804df;
 }
-
 section.chat__section .brand h1 {
-  text-transform: uppercase;
   font-size: 20px;
-  color: #ffff;
+  color: white;
   margin-left: 10px;
 }
-
 section.chat__section .message__area {
   height: 500px;
   padding: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   overflow-y: auto;
   padding-top: 40px;
 }
-
 section.chat__section textarea {
   width: 100%;
   border: none;
+  border-radius: 10px;
   padding: 14px 44px;
   font-size: 21px;
   outline: none;
-  color: #ffff;
+  color: rgb(0, 0, 0);
   font-weight: 600;
-  background: #8F8BE8;
+  background: #379BFF;
 }
-
 section.chat__section .message {
   padding: 20px;
   border-radius: 4px;
@@ -85,7 +62,6 @@ section.chat__section .message {
   max-width: 300px;
   position: relative;
 }
-
 section.chat__section .message h4 {
   position: absolute;
   top: -20px;
@@ -93,23 +69,18 @@ section.chat__section .message h4 {
   color: #000;
   font-size: 14px;
 }
-
 section.chat__section .incoming {
   background: #7804df;
   font-weight: 400;
   letter-spacing: 0.6px;
   color: #fff;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 2.6px 1.95px 1.95px;
-          box-shadow: rgba(0, 0, 0, 0.15) 2.6px 1.95px 1.95px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.6px 1.95px 1.95px;
 }
-
 section.chat__section .outgoing {
   background: #0242ce;
   color: #ffffff;
   font-weight: 400;
   letter-spacing: 0.6px;
   margin-left: auto;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-/*# sourceMappingURL=style.css.map */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}/*# sourceMappingURL=style.css.map */
