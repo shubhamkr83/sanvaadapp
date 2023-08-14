@@ -6,4 +6,18 @@ Realtime chat app using socket.io and vanilla JavaScript
 ## Installation 
 After download or clone run `npm install` to install all the dependancies.
 
-🙏 If you find this repo helpful then don't forget to give a start ❇️ to this repository. :)
+# Tech Stack 
+
+## Front End
+
+### <li>Html</li>
+
+## Back End
+
+### <li>NodeJS</li>
+### <li>Express</li>
+
+## Database
+
+### <li>MongoDB</li>
+
