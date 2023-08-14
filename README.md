@@ -21,3 +21,7 @@ Realtime chat app using socket.io and vanilla JavaScript
 ### <li>Express</li>
 ### <li>MongoDB</li>
 
+## Screenshort:-
+
+![Screenshot (489)](https://github.com/shubhamkr83/sanvaadapp/assets/72254047/66e0a3ac-66ec-4d92-99fa-3c6e6054b995)
+
